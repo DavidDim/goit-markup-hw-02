@@ -1,0 +1,122 @@
+/* :root {
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --primary-white-color:#FFFFFF;
+    --accent-color:#2196F3;
+    --bgc-button-color:#F5F4FA;
+} */
+
+.list {
+    list-style: none;
+}
+
+.logo {
+    font-family: raleway, sans-serif;
+}
+
+.page {
+    font-family: roboto, sans-serif;
+    background-color: #FFFFFF;
+    color: #757575;
+
+}
+
+.site-nav a {
+    color: #212121;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+    color: #2196F3;
+}
+
+.auth-nav a {
+    color: #757575;
+}
+
+.auth-nav a:hover,
+.auth-nav a:focus {
+    color:#2196F3
+}
+
+.list .accent-color {
+    color: #757575;
+}
+
+.project .title {
+    color: #212121;
+}
+
+.hero .title {
+    color: #212121;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36 ;
+} 
+
+.work .title {
+    color: #212121;
+    font-size: 14px;
+    line-height: 1.14px;
+}
+
+.team .title {
+    color: #212121;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.list .title {
+    font-size: 18px;
+    line-height: 2;
+}
+
+.team .title-card {
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;  
+}
+
+.title {
+    color: #212121;
+    font-size: 36px;
+    line-height: 1.16;
+}
+
+.par {
+    font-size: 14px;
+    line-height: 1.7px;
+}
+
+.p-card {
+    color: #757575;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.list .par-card {
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+.button-filter {
+    color: #212121;
+    background-color: #F5F4FA;
+}
+
+.button-filter button:hover, 
+button:focus 
+{
+    color: #FFFFFF;
+    background-color: #2196F3;
+    cursor: pointer
+}
+
+.button-order {
+    color:#FFFFFF;
+    background-color: #2196F3;
+    cursor: pointer
+}
+
+
