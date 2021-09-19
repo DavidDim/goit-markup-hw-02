@@ -18,6 +18,11 @@
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.logo .logo-two {
+    color: #2196F3;
 }
 
 .page {
@@ -85,9 +90,9 @@
 }
 
 .list .title {
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
 }
 
 .team .title-card {
@@ -108,6 +113,7 @@
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
+    font-style: normal;
 }
 
 .p-card {
