@@ -8,10 +8,16 @@
 
 .list {
     list-style: none;
+    text-decoration: none;
 }
+
 
 .logo {
     font-family: raleway, sans-serif;
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
 }
 
 .page {
@@ -23,6 +29,11 @@
 
 .site-nav a {
     color: #212121;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .site-nav a:hover,
@@ -32,6 +43,11 @@
 
 .auth-nav a {
     color: #757575;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .auth-nav a:hover,
@@ -51,24 +67,27 @@
     color: #212121;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.36 ;
+    line-height: 1.36;
+    text-transform: uppercase;
 } 
 
 .work .title {
     color: #212121;
     font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
+    text-transform: uppercase;
 }
 
 .team .title {
     color: #212121;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
 }
 
 .list .title {
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em;
 }
 
 .team .title-card {
@@ -82,17 +101,20 @@
     color: #212121;
     font-size: 36px;
     line-height: 1.16;
+    letter-spacing: 0.03em;
 }
 
 .par {
     font-size: 14px;
-    line-height: 1.7px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
 }
 
 .p-card {
     color: #757575;
     font-size: 16px;
     line-height: 1.8;
+    letter-spacing: 0.03em;
 }
 
 .list .par-card {
@@ -103,6 +125,10 @@
 .button-filter {
     color: #212121;
     background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
 }
 
 .button-filter button:hover, 
@@ -116,6 +142,9 @@ button:focus
 .button-order {
     color:#FFFFFF;
     background-color: #2196F3;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.06em;
     cursor: pointer
 }
 
