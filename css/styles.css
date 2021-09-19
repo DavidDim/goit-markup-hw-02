@@ -1,10 +1,10 @@
-/* :root {
-    --primary-text-color:#757575;
-    --title-text-color:#212121;
-    --primary-white-color:#FFFFFF;
-    --accent-color:#2196F3;
-    --bgc-button-color:#F5F4FA;
-} */
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --primary-white-color: #FFFFFF;
+    --accent-color: #2196F3;
+    --bgc-button-color: #F5F4FA;
+}
 
 .list {
     list-style: none;
@@ -22,18 +22,18 @@
 }
 
 .logo .logo-two {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .page {
     font-family: roboto, sans-serif;
-    background-color: #FFFFFF;
-    color: #757575;
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
 
 }
 
 .site-nav a {
-    color: #212121;
+    color: var(--title-text-color);
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -43,11 +43,11 @@
 
 .site-nav a:hover,
 .site-nav a:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .auth-nav a {
-    color: #757575;
+    color: var(--primary-text-color);
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -57,19 +57,19 @@
 
 .auth-nav a:hover,
 .auth-nav a:focus {
-    color:#2196F3
+    color:var(--accent-color);
 }
 
 .list .accent-color {
-    color: #757575;
+    color: var(--primary-text-color);
 }
 
 .project .title {
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 .hero .title {
-    color: #212121;
+    color: var(--title-text-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -77,14 +77,14 @@
 } 
 
 .work .title {
-    color: #212121;
+    color: var(--title-text-color);
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 }
 
 .team .title {
-    color: #212121;
+    color: var(--title-text-color);
     font-size: 36px;
     line-height: 1.16;
 }
@@ -96,14 +96,14 @@
 }
 
 .team .title-card {
-    color: #212121;
+    color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;  
 }
 
 .title {
-    color: #212121;
+    color: var(--title-text-color);
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
@@ -117,7 +117,7 @@
 }
 
 .p-card {
-    color: #757575;
+    color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.8;
     letter-spacing: 0.03em;
@@ -128,9 +128,11 @@
     line-height: 1.18;
 }
 
-.button-filter {
-    color: #212121;
-    background-color: #F5F4FA;
+.button-filter button {
+    color: var(--title-text-color);
+    background-color: var(--bgc-button-color);
+    font-family: Roboto;
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -140,18 +142,23 @@
 .button-filter button:hover, 
 button:focus 
 {
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
     cursor: pointer
 }
 
 .button-order {
-    color:#FFFFFF;
-    background-color: #2196F3;
+    color:var(--primary-white-color);
+    background-color: var(--accent-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
     font-size: 16px;
     line-height: 1.8;
+    display: flex;
+    align-items: center;
+    text-align: center;
     letter-spacing: 0.06em;
-    cursor: pointer
 }
 
 
